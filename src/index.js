@@ -1,0 +1,11 @@
+import './style.scss';
+//import './js/svg-intro-smiley/smiley';
+//import './js/bar/barchart';
+//import './js/bar/custom-barchart';
+//import './js/scatterplot/scatterplot';
+//import './js/scatterplot/car-scatterplot';
+//import './js/line/temperature-line';
+//import './js/area/population-area';
+//import './js/general-update/bowl-of-fruit'
+//import './js/click-to-select/bowl-of-fruit'
+import './js/pie/piechart'

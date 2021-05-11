@@ -1,0 +1,56 @@
+﻿body {
+    font-family: Lato, sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+svg {
+    overflow: visible;
+
+    rect {
+        fill: steelblue;
+    }
+
+    circle {
+        &.scatterplot {
+            opacity: .5;
+            fill: red;
+        }
+    }
+
+    text {
+        font-size: 1.3rem;
+        font-family: Lato, sans-serif;
+    
+
+        &.chart-title {
+            font-size: 2rem;
+            font-weight: bold;
+            text-anchor: middle;
+        }
+
+        &.chart-legend-y,
+        &.chart-legend-x {
+            font-style: italic;
+            font-size: 1rem;
+            text-anchor: middle;
+        }
+
+        &.fruitName {
+            text-anchor: middle;
+        }
+    }
+
+    .tick {
+        text {
+            fill: #635f5d;
+        }
+
+        line {
+            stroke: #c0c0bb;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+        "date": "2018-10-10",
+        "weather": "cloudy"
+        },{
+        "date": "2018-10-11",
+        "weather": "sunny"
+        }
+    ]
+  }
